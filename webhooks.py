@@ -3,8 +3,8 @@ from flask_restful import Resource, Api
 
 import os
 
-buildBranch = 'master'
-buildPath = '/home/ubuntu/lab-socket-programming/'
+buildBranch = 'main'
+buildPath = '/home/twin8350423/lab-socket-programming/'
 
 buildCommand = 'cd ' + buildPath + ' && git stash && git pull origin ' + buildBranch
 
